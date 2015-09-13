@@ -1,0 +1,72 @@
+@import url(http://fonts.googleapis.com/css?family=Sue+Ellen+Francisco);
+body {
+  font-family: 'Sue Ellen Francisco', cursive;
+}
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6 {
+  font-family: 'Sue Ellen Francisco', cursive;
+}
+body header {
+  display: none;
+}
+body header #navigation {
+  background: rgba(255, 255, 255, 0.5);
+  height: 70px;
+  text-align: center;
+}
+body .main {
+  background: rgba(255, 255, 255, 0.5);
+}
+body .main .heading {
+  font-size: 4em;
+}
+body .main #about_pete h4.heading {
+  text-align: right;
+}
+body .main #about_pete h6.subheader {
+  text-align: right;
+  font-size: 2em;
+}
+body .main #philosophy h6.subheader {
+  font-size: 2em;
+}
+body .main #headshot {
+  text-align: center;
+  padding-left: 0;
+  padding-right: 0;
+}
+body #externals img {
+  height: 40px;
+}
+body footer p {
+  font-size: 1.5em;
+}
+.style1 {
+  background-color: rgba(255, 255, 255, 0.8);
+  background: url('../images/background.png');
+}
+.style2 {
+  background: url('../images/digital_droppings_background.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#my_digital_droppings {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.title {
+  margin-top: 20px;
+}
+.content_header {
+  text-align: center;
+}
+.center {
+  text-align: center;
+}
+.center img {
+  height: 100px;
+}
