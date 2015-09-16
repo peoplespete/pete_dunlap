@@ -1,6 +1,6 @@
-@import url(http://fonts.googleapis.com/css?family=Sue+Ellen+Francisco);
+@import url(https://fonts.googleapis.com/css?family=Cabin+Sketch);
 body {
-  font-family: 'Sue Ellen Francisco', cursive;
+  font-family: 'Cabin Sketch', cursive;
 }
 body h1,
 body h2,
@@ -8,21 +8,36 @@ body h3,
 body h4,
 body h5,
 body h6 {
-  font-family: 'Sue Ellen Francisco', cursive;
+  font-family: 'Cabin Sketch', cursive;
+}
+body h3 {
+  font-size: 1.2em;
 }
 body header {
   display: none;
 }
-body header #navigation {
+#navigation > .large-12, .main > .large-12 {
   background: rgba(255, 255, 255, 0.5);
+
+}
+
+body header #navigation {
   height: 70px;
   text-align: center;
 }
+body header #navigation h1 {
+  font-size: 2em;
+  padding: 8px;
+}
+body header #navigation h1 .name{
+  font-size: 2em;
+  font-weight: bold;
+}
+
 body .main {
-  background: rgba(255, 255, 255, 0.5);
 }
 body .main .heading {
-  font-size: 4em;
+  font-size: 2.5em;
 }
 body .main #about_pete h4.heading {
   text-align: right;
@@ -46,8 +61,12 @@ body footer p {
   font-size: 1.5em;
 }
 .style1 {
-  background-color: rgba(255, 255, 255, 0.8);
-  background: url('../images/background.png');
+  background-color: rgba(255, 255, 255, 1);
+  background: url('../images/background.png') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 .style2 {
   background: url('../images/digital_droppings_background.png');
