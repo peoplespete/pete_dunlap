@@ -13,9 +13,7 @@ body h6 {
 body h3 {
   font-size: 1.2em;
 }
-body header {
-  display: none;
-}
+
 #navigation > .large-12, .main > .large-12 {
   background: rgba(255, 255, 255, 0.5);
 

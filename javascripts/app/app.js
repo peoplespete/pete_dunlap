@@ -5,8 +5,6 @@ $(document).ready(initialize);
 
 function initialize(){
   $(document).foundation();
-  $("header").slideDown( 1000, function() {
-    // Animation complete.
-  });
+  $('#year').text(new Date().getFullYear())
 }
 
